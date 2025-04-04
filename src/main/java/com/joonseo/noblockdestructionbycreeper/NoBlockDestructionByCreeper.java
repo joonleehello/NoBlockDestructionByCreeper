@@ -1,6 +1,7 @@
 package com.joonseo.noblockdestructionbycreeper;
 
 import org.bukkit.entity.EntityType;
+import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityExplodeEvent;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -22,6 +23,8 @@ public final class NoBlockDestructionByCreeper extends JavaPlugin implements Lis
         // Plugin shutdown logic
     }
 
+
+    @EventHandler
     public void NoDestructionByCreeperExplosion(EntityExplodeEvent e){
 
         if(e.getEntityType() == EntityType.CREEPER){
