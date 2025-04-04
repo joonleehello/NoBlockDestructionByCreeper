@@ -12,7 +12,7 @@ public final class NoBlockDestructionByCreeper extends JavaPlugin implements Lis
     public void onEnable() {
 
         getServer().getPluginManager().registerEvents(this, this);
-        getLogger().info("크리퍼 폭발에 의한 블럭 파괴 방지 플러그인 활성화");
+        getLogger().info("The creeper will not destruct blocks anymore.");
 
         // Plugin startup logic
 
