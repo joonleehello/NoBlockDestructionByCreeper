@@ -1,0 +1,4 @@
+name: NoBlockDestructionByCreeper
+version: '${project.version}'
+main: com.joonseo.noblockdestructionbycreeper.NoBlockDestructionByCreeper
+api-version: '1.21'
